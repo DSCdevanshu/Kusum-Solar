@@ -1,0 +1,64 @@
+/* Container Styling */
+.info-container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Title Styling */
+.info-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Cards Wrapper */
+.info-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Individual Card Styling */
+.info-card {
+  width: 30%;
+  border: 2px solid green;
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease-in-out;
+  text-align: left;
+}
+
+/* Hover Effect: Change Background Color */
+.info-card:hover {
+  background-color: green;
+  color: white;
+}
+
+/* Headings inside Cards */
+.info-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* List Styling */
+.info-card ul {
+  padding-left: 20px;
+}
+
+.info-card ul li {
+  margin-bottom: 8px;
+}
+
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+  .info-cards {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .info-card {
+      width: 90%;
+  }
+}

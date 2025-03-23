@@ -1,0 +1,68 @@
+/* Main container */
+.documents-container {
+  background-color: #0d3600;
+  text-align: center;
+  padding: 50px 20px;
+  color: white;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Section Subtitle */
+.section-subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Documents Card */
+.documents-card {
+  background-color: white;
+  color: black;
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+/* Documents List */
+.documents-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* List Items */
+.documents-list li {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Numbered Badges */
+.doc-number {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .documents-card {
+      width: 90%;
+      padding: 20px;
+  }
+}
