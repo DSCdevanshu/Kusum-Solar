@@ -2,7 +2,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">KUSUM SOLAR</a>
+      <a class="navbar-brand" href="#">KISAN SOLAR</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -15,16 +15,16 @@
       <div class="collapse navbar-collapse" [ngClass]="{ show: isMenuOpen }" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">HOW TO APPLY ?</a>
+            <a class="nav-link" routerLink="/" fragment="apply">HOW TO APPLY ?</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">BENEFITS</a>
+            <a class="nav-link" routerLink="/" fragment="benefits">BENEFITS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">DOCUMENTS LIST</a>
+            <a class="nav-link" routerLink="/" fragment="documents">DOCUMENTS LIST</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT US</a>
+            <a class="nav-link" routerLink="/" fragment="contact">CONTACT US</a>
           </li>
         </ul>
       </div>
@@ -42,12 +42,24 @@
         10% का भुगतान करना होगा। इस योजना के 2 महत्वपूर्ण लाभ होंगे, एक समय बिजली
         मिलेगी और किसान बची हुई बिजली बेच सकेंगे। अभी संपर्क करें।
       </p>
-      <button class="btn btn-success btn-lg">HELPLINE : 089608 29541</button>
+      <button class="btn btn-success btn-lg">HELPLINE :
+
+        <a href="tel:08960829541" class="helpline-btn">7897262871</a>
+      </button>
+
+
     </div>
   </div>
 
   <!-- Floating Call Button -->
   <div class="call-button">
+    <a
+    href="https://wa.me/917897262871"
+    target="_blank"
+    class="call-button"
+  >
     <img src="phone-whatsapp.gif" alt="Call">
+  </a>
+
   </div>
 </div>
